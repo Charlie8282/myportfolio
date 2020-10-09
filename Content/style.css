@@ -449,8 +449,13 @@ section {
     }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+.skillscon {
+    background-color:darkslategrey;
+    
+}
+
 .skills .progress {
     height: 50px;
     display: block;
@@ -914,9 +919,11 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
     width: 100%;
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
+
 }
     /*#fff
 */ .contact .info i {
@@ -1128,6 +1135,8 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+
 #footer {
     background: #f7f8f9;
     color: #45505b;

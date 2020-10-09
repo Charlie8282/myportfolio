@@ -97,6 +97,7 @@
     <Content Include="Images\coming-soon.jpg" />
     <Content Include="Images\csharp-logo.jpg" />
     <Content Include="Images\dotnet-logo.png" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\favicon.png" />
     <Content Include="Images\fizzbuzz.png" />
     <Content Include="Images\fizzbuzz1.png" />
