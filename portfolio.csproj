@@ -79,6 +79,9 @@
     <Content Include="Content\owl.theme.green.min.css" />
     <Content Include="Content\prism.css" />
     <Content Include="Content\venobox.css" />
+    <Content Include="css\hover_effects.css" />
+    <Content Include="css\hover_effects_ie.css" />
+    <Content Include="css\style.css" />
     <Content Include="Images\2020-10-04 %282%29.png" />
     <Content Include="Images\2020-10-04 %283%29.png" />
     <Content Include="Images\ajax-loader.gif" />
@@ -160,6 +163,13 @@
     <Content Include="Images\testimonials-5.jpg" />
     <Content Include="Content\animations.css" />
     <Content Include="Images\unknown.png" />
+    <Content Include="js\jquery.1.5.1.js" />
+    <Content Include="js\jquery.easing.js" />
+    <Content Include="js\jquery.scrollTo-1.4.2-min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\shBrushCss.js" />
+    <Content Include="js\shBrushXml.js" />
+    <Content Include="js\shCore.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Content\bootstrap.css" />

@@ -1,0 +1,50 @@
+/*
+Item Name : CSS3 Image Hover Effects 
+Author URI : http://codecanyon.net/user/Pixelworkshop/
+Version : 1.0
+*/
+
+
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#212121;
+	background:url("../img/bg.gif");
+}
+#wrapper {width:1060px;margin:20px auto;}
+.clear {clear:left;height:21px;line-height:21px;}
+h1, h2, h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight:normal;
+	color:#181818;
+	margin-left:15px;
+}
+h1 {font-size:30px; margin-top:50px; margin-bottom:45px;}
+h2 {font-size:21px; margin:24px 0 18px 15px;}
+
+
+/*
+Pretty Table Styling
+CSS Tricks also has a nice writeup: http://css-tricks.com/feature-table-design/
+*/
+
+table {overflow:hidden;border-spacing: 0px;border-collapse: collapse;border:1px solid #d3d3d3;background:#fefefe;width:940px;margin:0 auto;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);}
+.center {text-align:center;}
+.centered {width:500px; margin-left:60px;}
+td {text-align:center;padding:10px 6px 10px 6px; }
+.first-column {width:170px;}
+th {padding-top:15px;padding-bottom:15px;  text-shadow: 1px 1px 1px #fff; background:#e8eaeb;border-right:1px solid #cccccc;}
+td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0; text-align:center;}
+tr.odd-row td {background:#f6f6f6;}
+td.first, th.first {text-align:left}
+td.last {border-right:none;}
+td {background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));}
+tr.odd-row td {background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));}
+th {background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));}
+
+.ok {background:url("../img/ok.png") center center no-repeat; float:left; width:100%; height:16px;}
+.no {background:url("../img/no.png") center center no-repeat; float:left; width:100%; height:16px;}
+.pc {background:url("../img/pc.png") center center no-repeat; float:left; width:100%; height:16px;}
+sup {font-size:10px; font-family:Arial, Helvetica, sans-serif;}
+.icon {margin-right:10px; vertical-align:middle;}
+p {font-size:12px; line-height:12px;}
