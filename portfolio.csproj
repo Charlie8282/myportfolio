@@ -79,8 +79,6 @@
     <Content Include="Content\owl.theme.green.min.css" />
     <Content Include="Content\prism.css" />
     <Content Include="Content\venobox.css" />
-    <Content Include="css\hover_effects.css" />
-    <Content Include="css\hover_effects_ie.css" />
     <Content Include="css\style.css" />
     <Content Include="Images\2020-10-04 %282%29.png" />
     <Content Include="Images\2020-10-04 %283%29.png" />

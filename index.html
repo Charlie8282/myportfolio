@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link rel="stylesheet" href="css/hover_effects.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link href="Content/bootstrap.min.css" rel="stylesheet">
     <link href="Content/icofont.min.css" rel="stylesheet">
@@ -37,20 +37,16 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
-    <style>
-        .p-3 {
-            padding: $spacer !important;
-        }
-    </style>
+
 
 </head>
 
 <body class="bgcolor">
 
     <!-- ======= Mobile nav toggle button ======= class="mobile-nav-toggle d-xl-none"-->
-    <button type="button" class="mobile-nav-toggle d-xl-none"><img src="Images/icons8-list-48.png" /></i></button>
+    <button type="button" class="mobile-nav-toggle d-xl-none"><img src="Images/icons8-list-48.png" /></button>
     <!-- ======= Header ======= -->
-    <header id="header" class= "justify-content-center">
+    <header id="header" class="justify-content-center">
         <img src="Images/charlie-nav.png" /><br /><br /><br />
 
         <nav class="nav-menu">
@@ -150,27 +146,26 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
+
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-2">
-                        <img src="Images/icons8-html-5-96.png" /><h3>HTML-5</h3>
+                        <img src="Images/icons8-html-5-96.png" /><h3>HTML-5</h3><button class="btn btn-info" data-toggle="modal" data-target="#htmlModal">What's this?</button>
                     </div>
                     <div class="col-sm-2">
-                        <img src="Images/icons8-css3-96.png" /><h3>CSS3</h3>
+                        <img src="Images/icons8-css3-96.png" /><h3>CSS3</h3><button class="btn btn-info" data-toggle="modal" data-target="#cssModal">What's this?</button>
                     </div>
                     <div class="col-sm-2">
-                        <img src="Images/icons8-javascript-96.png" /><h3>JavaScript</h3>
+                        <img src="Images/icons8-javascript-96.png" /><h3>JavaScript</h3><button class="btn btn-info" data-toggle="modal" data-target="#javaModal">What's this?</button>
                     </div>
                     <div class="col-sm-2">
-                        <img src="Images/icons8-c-sharp-logo-96.png" /><h3>C-Sharp</h3>
+                        <img src="Images/icons8-c-sharp-logo-96.png" /><h3>C-Sharp</h3><button class="btn btn-info" data-toggle="modal" data-target="#cSharpModal">What's this?</button>
                     </div>
                     <div class="col-sm-2">
-                        <img src="Images/icons8-sql-96.png" /><h3>SQL</h3>
+                        <img src="Images/icons8-sql-96.png" /><h3>SQL</h3><button class="btn btn-info" data-toggle="modal" data-target="#sqlModal">What's this?</button>
                     </div>
                     <div class="col-sm-2">
-                        <img src="Images/icons8-bootstrap-96.png" /><h3>BootStrap</h3>
+                        <img src="Images/icons8-bootstrap-96.png" /><h3>BootStrap</h3><button class="btn btn-info" data-toggle="modal" data-target="#bootModal">What's this?</button>
                     </div>
                 </div>
                 <div class="row-sm-2">
@@ -186,48 +181,6 @@
 
 
 
-
-
-
-
-        <!--<section id="skills" class="services skillscon">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box iconbox-blue">
-                            <div class="icon">
-                                <img src="Images/HCJ.jpg" />
-                            </div>
-                            <br /><br /><br /><br /><br /><br />
-                            <p>HTML5 is the foundation of your site.  When used with CSS3 and JavaScript, your site comes to life and is easily changed on a whim because of the way the code is designed.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="icon-box iconbox-orange ">
-                            <div class="icon">
-                                <img src="Images/csharp-logo.jpg" />
-                            </div>
-                            <br /><br /><br /><br /><br /><br />
-                            <p>C# (pronounced C-sharp).  Designed to work with Microsoft's .NET platform, this tool combines the ease of Visual Basic with the simular but more powerful coding language C++.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="icon-box iconbox-pink">
-                            <div class="icon">
-                                <img src="Images/sql-skills.png" />
-                            </div>
-                            <br /><br /><br /><br /><br /><br />
-                            <p>SQL or .  Unlike the first four tools, this is not a programming language.  It is a query language that is a bit easier to write.  It is also compatible with most database engines.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!--end skills-------------------------------------------------------------------------------------------------------->
         <!-- ======= Resume Section ======= -->
         <section id="resume" class="resume">
             <div class="container" data-aos="fade-up">
@@ -283,79 +236,23 @@
             </div>
 
         </section><!-- End Resume Section -->
-        <!-- ======= Projects Section ======= -->
-        <section id="projects" class="portfolio pad">
+        <!--======= Projects Section =======-->
+        <section id="projects" class="portfolio">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     <h2>Projects</h2>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3"><img src="Images/bug-track.png" /></div>
-                    <div class="col-sm-3"><img src="Images/mvc.png" /></div>
-                    <div class="col-sm-3"><img src="Images/api.jpg" /></div>
-                    <div class="col-sm-3"><img src="Images/blog.png" /></div>
+            <div class="container ">
+                <div class="row pad">
+                    <div class="col-sm-3"><img src="Images/bug-track.png" class="animate__animated animate__backInLeft"/></div>
+                    <div class="col-sm-3"><img src="Images/mvc.png" class="animate__animated animate__backInDown"/></div>
+                    <div class="col-sm-3"><img src="Images/api.jpg" class="animate__animated animate__backInUp"/></div>
+                    <div class="col-sm-3"><img src="Images/blog.png" class="animate__animated animate__backInRight"/></div>
                 </div>
             </div>
         </section>
-        <!--<section class="skillscon portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="Images/bug-track.png" class="card-img-top" />
-                            </div>
-                            <div class="card-body">
-                                Bug tracker Application.-->
-        <!--This is the most important project to build on coding knowledge.  It is designed to solve business problems.  I would like to show you how it can help you today!-->
-        <!--</div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-header">
-                    <img src="Images/mvc.png" class="card-img-top" />
-                </div>
-                <div class="card-body">
-                    Finacial Portal (MVC).-->
-        <!--This is a dynamic web application where I use ASP.NET MVC Framework and C# to demonstrate the importance of the Model-View-Controller pattern.-->
-        <!--</div>
-                </div>
-            </div>
-        </div>
-        <br />
-        <div class="row">
-            <div class="col-6">
-                <div class="card">
-                    <div class="card-header">
-                        <img src="Images/api.jpg" class="card-img-top" />
-                    </div>
-                    <div class="card-body">
-                        FInancial Portal API(application programming interface).-->
-        <!--This software can help me interact with financial applications so that you the user can retrieve your financial information at anytime.-->
-        <!--</div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-header">
-                    <img src="Images/blog.png" class="card-img-top" />
-                </div>
-                <div class="card-body">
-                    My Blog.-->
-        <!--Covering my growth as a Full-stack developer weekly and sometimes daily.  It is important to keep the lines of communication open so that we can all learn from each other.-->
-        <!--</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </section>-->
+       
         <!-- ======= Challenges Section ======= -->
         <section id="challenges">
             <div class="container pad" data-aos="fade-up">
@@ -473,7 +370,7 @@
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                             
+
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
@@ -586,7 +483,7 @@
 
     </script>
     <!-- The Modal -->
-    <div class="modal fade" id="myModal">
+    <div class="modal fade" id="myCvModal">
         <div class="modal-dialog">
             <div class="modal-content">
 
@@ -610,8 +507,150 @@
         </div>
     </div>
 
+    <!-- The Modal -->
+    <div class="modal fade" id="htmlModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
 
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"> HTML5(Hypertext Markup Language - fifth version)</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
 
+                <!-- Modal body -->
+                <div class="modal-body">
+                    As the name says, this is a markup language.  Unlike a programming language, this is used to structure and present content on the internet.  It is ever-evolving as this is the fifth and largest version of the popular language.  HTML5 is pretty limited so the experience with it's side kicks, CSS3 and JavaScript is recommended.  Click the "What's this?" button below those Icons to learn more on the basics of those languages.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cssModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">CSS3 (Cascaing Style Sheet language - third version)</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    The style sheet language is used basically to describe to a web browser just what a website should look like after appling the structure with HTML.  The latest version, number three, offers novilities like rounded corners, shadows, transitions and animations that were not included in the previous versions.  These are easy to use once you know the languages needed to build a web site full of pages that you wish to keep a specific theme for.  You make a "class" with the styling atributes that lay the foundation of the site and apply that class to the seperate pages of the site.  By adding animations to images, you can learn to use this is a tool for directing the users attention to important parts of their experience on your website.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="javaModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">JavaScript</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    This is a programming language, sometimes reffered to as a "scripting" language.  This is the work horse of most websites that do things other than just display static information to a web browser.  This helps bring animations to life, and introduces interactivity with the user.  When you click a button on a website, Javascript is used to produce the result you get, because it is object orriented.  This can be things like mathmitical functions, sending form information and other data, manipluating collections of information called arrays, and much much more.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cSharpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">C# (C-Sharp)</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Developed by Microsoft, C# can be a little more troublesome to learn on the programming end because it is a much more complex, and strict programming language.  The upside to this is that you can greet a user with a more easily aquired sinse of organization.  The logic that makes Javascript work is used here but implimented in a different and once again a more organized way.  This also alloys it to deal with more complex needs and bigger projects like interacting with a database.  This runs on the .NET framework and is widely universal for most major buisiness applications.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sqlModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">SQL (Structure Query Language)</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    This is a language that is used to communicate with a database, and is the standard for relational database management systems.  This language is domain-specific and designed for maintaining data held in a database. This is what is used to organize large amounts of data that could be seperated in different fields in tables.  Major search engines and banks are typically the target for using SQL.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bootModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">BootStrap4</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Bootstrap4 is the most recent version of BootStrap.  This is widely used in modern web development.  It offers CSS and Javascript-based design templates used for making interface components like forms, buttons, and easy to make tables using a intuitive grid system made up of rows and columns.  The best part about bootstrap is the ease it brings to designing websites to look good across multiple devices.  Thisis crucial in becoming a full-stack developer because you rarely have an overload of time to put into the front end editing of sites that you manage.
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 
