@@ -13,7 +13,7 @@ $(document).ready(function() {
 		sectionscount = 0,
 		win = $(window),
 		sidebar = $('#documenter_sidebar'),
-		nav = $('#documenter_nav'),
+		//nav = $('#documenter_nav'),
 		logo = $('#documenter_logo'),
 		navanchors = nav.find('a'),
 		timeoffset = 50,

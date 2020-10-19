@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.name {
+    font-size: 4.5vw;
+    font-style: italic;
+    font-family: Impact;
+    color: goldenrod;
+}
 pad {
     padding: 2rem;
 }
@@ -30,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bgcolor {
-    background-color: blanchedalmond;
+    background-color: silver;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -138,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
     #header {
         width: 300px;
-        background: #fff;
+        background: #000033;
         border-right: 1px solid #e6e9ec;
         left: -300px;
     }
@@ -219,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
     }
 
-/* Mobile Navigation */
+ Mobile Navigation 
 .mobile-nav-toggle {
     position: fixed;
     right: 15px;
@@ -251,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
         color: #0563bb;
     }
 
-/*--------------------------------------------------------------
+/**//*--------------------------------------------------------------
 # Hero Section url("../
 --------------------------------------------------------------*/
 
@@ -259,7 +265,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-image: url("../Images/bg-city-right.png");/*background for landing page*/
+    background-color: #000033;
+    /*background-image: url("../Images/bg-city-right.png");*//*background for landing page*/
     position: relative;
 }
 
@@ -1193,3 +1200,5 @@ section {
     #footer .credits {
         font-size: 13px;
     }
+
+
