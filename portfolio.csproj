@@ -89,6 +89,7 @@
     <Content Include="Images\bg-city.jpg" />
     <Content Include="Images\bg-city1.png" />
     <Content Include="Images\blog.png" />
+    <Content Include="Images\blue-stage.jpg" />
     <Content Include="Images\bootstrap-logo.jpg" />
     <Content Include="Images\bug-track.png" />
     <Content Include="Images\charlie-nav.png" />
