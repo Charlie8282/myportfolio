@@ -10,17 +10,17 @@
 --------------------------------------------------------------*/
 
 
-.name {
-    font-size: 6em;
-    font-style: italic;
-    font-family: Impact;
-    color:cyan;
-}
+
+
 pad {
     padding: 2rem;
 }
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: Century, "Open Sans", sans-serif;
+    /*background: url("../Images/blue-stage.jpg") fixed no-repeat;*/
+    background: url('../Images/backgroundMain.jpg') fixed no-repeat;
+    background-size:  cover;
     color: #272829;
 }
 
@@ -36,6 +36,7 @@ a {
 h1, h3, h4, h5, h6 {
     font-family: "Raleway", Arial, sans-serif;
 }
+
 h2 {
     font-family: "Raleway", Arial, sans-serif;
 }
@@ -144,12 +145,14 @@ h2 {
     transition: all 0.5s;
     padding: 15px;
     overflow-y: auto;
+    background-color: black;
+    /*width: 22rem;*/
 }
 
 @media (max-width: 992px) {
     #header {
         width: 300px;
-        background-image: url("../Images/blue-stage.jpg");
+        /*background-image: url("../Images/blue-stage.jpg");*/
         background-size: cover;
         border-right: 1px solid #e6e9ec;
         left: -300px;
@@ -185,8 +188,11 @@ h2 {
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
-    border-radius: 50px;
-    background: #f2f3f5;
+    border-radius: .2rem;
+    border-top: 10px solid #fa7c03;
+    border-right: 10px solid #ebcb08;
+    border-bottom-left-radius: .3rem;
+    background: url(../Images/nav-back.JPG);
     height: 56px;
     width: 100%;
     overflow: hidden;
@@ -215,12 +221,37 @@ h2 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
     color: #fff;
-    background: #0563bb;
+    background: #e00000;
 }
 
-    .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
-        color: #fff;
-    }
+.navShape:before {
+    content: '';
+    border-top: 50px solid #ccc;
+    border-right: 15px solid transparent;
+    border-left: 75px solid transparent;
+    position: absolute;
+    top: 40px;
+    right: 15%;
+}
+
+.navShape:after {
+    content: '';
+    border-bottom: 50px solid #ccc;
+    border-left: 15px solid transparent;
+    border-right: 75px solid transparent;
+    position: absolute;
+    top: 40px;
+    right: 26.25%;
+}
+
+.navShape {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+    color: #fff;
+}
 
 .nav-menu a:hover, .nav-menu li:hover > a {
     width: 100%;
@@ -231,7 +262,7 @@ h2 {
         display: block;
     }
 
- Mobile Navigation 
+Mobile Navigation
 .mobile-nav-toggle {
     position: sticky;
     right: 15px;
@@ -247,9 +278,9 @@ h2 {
     text-align: right;
 }
 
-    .mobile-nav-toggle i {
-        color: #45505b;
-    }
+.mobile-nav-toggle i {
+    color: #45505b;
+}
 
 .mobile-nav-active {
     overflow: hidden;
@@ -263,14 +294,14 @@ h2 {
         color: #0563bb;
     }
 
-/**//*--------------------------------------------------------------
+/**/ /*--------------------------------------------------------------
 # Hero Section url("../
 --------------------------------------------------------------*/
 
 #hero {
     width: 100%;
     height: 100vh;
-    background-image: url("../Images/blue-stage.jpg");
+    /*background-image: url("../Images/blue-stage.jpg");*/
     background-size: cover;
     position: relative;
 }
@@ -397,6 +428,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+    background-color: darkgray;
+}
+
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;
@@ -464,8 +499,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skillscon {
-    background-color:darkslategrey;
-    
+    background-color: darkslategrey;
 }
 
 .skills .progress {
@@ -508,75 +542,75 @@ section {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:silver;
+    color: black;
 }
 
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid silver;
+    border-left: 2px solid darkblue;
     position: relative;
-    color:silver;
+    color: black;
 }
+
 .resume .resume-item-2 {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid silver;
+    border-left: 2px solid darkblue;
     position: relative;
 }
 
 
-    .resume .resume-item h4 {
-        line-height: 18px;
-        font-size: 18px;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-family: "Poppin", sans-serif;
-        color: #0563bb;
-        margin-bottom: 10px;
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppin", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: #f7f8f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+    .resume .resume-item ul li {
+        padding-bottom: 10px;
     }
 
-    .resume .resume-item h5 {
-        font-size: 16px;
-        background: #f7f8f9;
-        padding: 5px 15px;
-        display: inline-block;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
 
-    .resume .resume-item ul {
-        padding-left: 20px;
-    }
-
-        .resume .resume-item ul li {
-            padding-bottom: 10px;
-        }
-
-    .resume .resume-item:last-child {
-        padding-bottom: 0;
-    }
-
-    .resume .resume-item::before {
-        content: "";
-        position: absolute;
-        width: 16px;
-        height: 16px;
-        border-radius: 50px;
-        left: -9px;
-        top: 0;
-        background: silver;
-        border: 2px solid #0563bb;
-
-    }
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: white;
+    border: 2px solid #0563bb;
+}
 
 .cus-resume {
     width: 100%;
-  
-    background-image: linear-gradient(silver, #000033);
+    background-color: silver;
     background-size: cover;
     position: relative;
 }
+
 }
 
 /*--------------------------------------------------------------
@@ -585,7 +619,7 @@ section {
 /*.portfolio .portfolio-item {
     margin-bottom: 30px;
 }
-*//*
+*/ /*
 .portfolio #portfolio-flters {
     padding: 0;
     margin: 0 auto 25px auto;
@@ -609,20 +643,20 @@ section {
         transition: all 0.3s ease-in-out;
     }
 */
-        .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-            color: #0563bb;
-        }
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    color: #0563bb;
+}
 
-        .portfolio #portfolio-flters li:last-child {
-            margin-right: 0;
-        }
+.portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+}
 
 .portfolio .portfolio-wrap {
     transition: 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background: rgba(69, 80, 91, 0.8);
+    /*background: rgba(69, 80, 91, 0.8);*/
 }
 
     .portfolio .portfolio-wrap::before {
@@ -735,6 +769,7 @@ section {
             right: 15px;
         }
 
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -744,10 +779,11 @@ section {
     transition: all ease-in-out 0.3s;
     background: #fff;
     box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    margin: 2em;
 }
 
     .services .icon-box .icon {
-        margin: 0 auto;
+        margin: 2em;
         width: 100px;
         height: 100px;
         display: flex;
@@ -868,6 +904,7 @@ section {
     fill: #11dbcf;
 }
 
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -952,8 +989,7 @@ section {
 
 .contact .info {
     width: 100%;
-    background-color:blanchedalmond;
-
+    background-color: blanchedalmond;
 }
     /*#fff
 */ .contact .info i {
@@ -1224,4 +1260,22 @@ section {
         font-size: 13px;
     }
 
+.challenge-name {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
 
+.project-name {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+
+.nav-image {
+    max-height: 10rem;
+    max-width: 10rem;
+    border-radius: 50%;
+    color: #f40000
+}
