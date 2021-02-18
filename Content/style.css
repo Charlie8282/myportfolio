@@ -17,10 +17,10 @@ pad {
 }
 
 body {
-    font-family: Century, "Open Sans", sans-serif;
-    /*background: url("../Images/blue-stage.jpg") fixed no-repeat;*/
-    background: url('../Images/backgroundMain.jpg') fixed no-repeat;
-    background-size:  cover;
+    font-family: Arial Narrow, "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    /*background: url("../Images/dark-wood.jpg") fixed no-repeat;
+    background-size: cover;*/
     color: #272829;
 }
 
@@ -145,7 +145,8 @@ h2 {
     transition: all 0.5s;
     padding: 15px;
     overflow-y: auto;
-    background-color: black;
+    background: url(../Images/dark-wood.jpg) fixed no-repeat;
+    background-size: contain;
     /*width: 22rem;*/
 }
 
@@ -169,10 +170,15 @@ h2 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+.nav-menu {
+    width: 13rem;
+}
+
 .nav-menu * {
     margin: 0;
     padding: 0;
     list-style: none;
+    /*width: 16rem;*/
 }
 
 .nav-menu > ul > li {
@@ -183,16 +189,16 @@ h2 {
 .nav-menu a {
     display: flex;
     align-items: center;
-    color: #45505b;
-    padding: 10px 18px;
+    color: black;
+    padding: 10px 10px;
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
     border-radius: .2rem;
-    border-top: 10px solid #fa7c03;
-    border-right: 10px solid #ebcb08;
+    border-top: 10px solid #484646;
+    border-right: 10px solid #a3a1a1;
     border-bottom-left-radius: .3rem;
-    background: url(../Images/nav-back.JPG);
+    background-color: #0371c3;
     height: 56px;
     width: 100%;
     overflow: hidden;
@@ -205,7 +211,7 @@ h2 {
 
     .nav-menu a span {
         padding: 0 5px 0 7px;
-        color: #45505b;
+        color: black;
     }
 
 @media (min-width: 992px) {
@@ -215,13 +221,13 @@ h2 {
 
         .nav-menu a span {
             display: none;
-            color: #fff;
+            color: black;
         }
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #fff;
-    background: #e00000;
+    color: black;
+    background: silver;
 }
 
 .navShape:before {
@@ -250,7 +256,11 @@ h2 {
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
-    color: #fff;
+    color: black;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a {
@@ -381,7 +391,8 @@ Mobile Navigation
 --------------------------------------------------------------*/
 section {
     padding: 60px 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    width: 100%;
 }
 
 .section-title {
@@ -429,33 +440,36 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-    background-color: darkgray;
+    background: url(../Images/dark-about-back.png) fixed no-repeat;
+    background-size: contain;
+    color: white;
+    padding-bottom: 15rem;
 }
 
-.about .content h3 {
-    font-weight: 700;
-    font-size: 26px;
-    color: #728394;
-}
-
-.about .content ul {
-    list-style: none;
-    padding: 0;
-}
-
-    .about .content ul li {
-        padding-bottom: 10px;
+    .about .content h3 {
+        font-weight: 700;
+        font-size: 26px;
+        color: #728394;
     }
 
-    .about .content ul i {
-        font-size: 20px;
-        padding-right: 2px;
-        color: #0563bb;
+    .about .content ul {
+        list-style: none;
+        padding: 0;
     }
 
-.about .content p:last-child {
-    margin-bottom: 0;
-}
+        .about .content ul li {
+            padding-bottom: 10px;
+        }
+
+        .about .content ul i {
+            font-size: 20px;
+            padding-right: 2px;
+            color: #0563bb;
+        }
+
+    .about .content p:last-child {
+        margin-bottom: 0;
+    }
 
 /*--------------------------------------------------------------
 # Facts
@@ -498,6 +512,18 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.my-skills {
+    width: 100%;
+    color: white;
+    background: url(../Images/skills-back.png) fixed no-repeat;
+    background-size: contain;
+}
+
+.half-skill {
+    background: url(../Images/dark-wood.jpg) fixed no-repeat;
+    background-size: contain;
+}
+
 .skillscon {
     background-color: darkslategrey;
 }
@@ -616,6 +642,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 /*.portfolio .portfolio-item {
     margin-bottom: 30px;
 }
@@ -773,6 +800,8 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+
 .services .icon-box {
     text-align: center;
     padding: 70px 20px 80px 20px;
@@ -1277,5 +1306,96 @@ section {
     max-height: 10rem;
     max-width: 10rem;
     border-radius: 50%;
-    color: #f40000
+    border: solid;
+    border-color: lightblue;
+    border-width: .17rem;
+    color: #f40000;
+}
+
+.pad-special {
+    padding-top: 10rem;
+}
+
+.shadow-radius {
+    border: solid;
+    border-radius: .7rem;
+    border-color: white;
+    border-width: .2rem;
+    box-shadow: 10px 10px 5px #404040;
+}
+
+.my-projects {
+    background: url(../Images/dark-wood.jpg) fixed no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.my-projects-issue-web {
+    /*background: url(../Images/rustic.jpg) fixed no-repeat;*/
+    background-size: contain;
+}
+
+.my-projects-blog {
+    /*background: url(../Images/white-wood.jpg) fixed no-repeat;*/
+    background-size: cover;
+}
+
+.challenge-pad {
+    padding: 5rem;
+}
+
+.taco-back {
+    background: url(../Images/taco-back.PNG);
+    background-size: cover;
+    height: 20rem;
+}
+
+.answer {
+    color: black;
+    font-family: 'Copperplate Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fizz-back {
+    background: url(../Images/bubblesblue.jpg) no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+.fizz-return {
+    background-color: white;
+
+}
+
+.sunset-back {
+    background: url(../Images/sunsettton2.jpg);
+    background-size: cover;
+    height: 20rem;
+}
+
+.sun-output {
+    color: black;
+    font-family: 'Copperplate Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sum-back {
+    background: url(../Images/rustic.jpg) no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+.my-contact {
+    background: url(../Images/contact-back.jpg);
+    background-size: cover;
+}
+
+.foot {
+    background: url(../Images/white-wood.jpg);
+    background-size: cover;
+
 }
