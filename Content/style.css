@@ -1403,3 +1403,13 @@ section {
 .challenge-shadow {
     box-shadow: 0px 2px 10px 5px black;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    .sticky + .content {
+        padding-top: 60px;
+    }
