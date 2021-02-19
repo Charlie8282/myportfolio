@@ -671,7 +671,8 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">TacocaT Palindrome Challenge</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p class="ml-2">A palindrome is a word or phrase that is spelled the same way frontwards as it is spelled backwards, like taco cat. You can type into the box, click flip, and we will let you know if that is a palindrome or not. How many can you think of?</p>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button><br />
                 </div>
 
                 <!-- Modal body -->
@@ -703,16 +704,28 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">FizzBuzz Challenge</h4>
+                    <p class="ml-2">FizzBuzz is a great brainteaser to keep coders on their toes. It is a poplular algorithm for coders to write a program that prints the numbers 1-100 while printing "Fizz" for multiples of a given number, "Buzz" for multiples of another given number and "FizzBuzz" for multiples of both of those. Give it a try!</p>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body fizz-back">
                     <div class="row">
-                        <input class="text fizz-input1" id="txtFizzBuzz1" placeholder="Fizz Number..." /><br />
-                        <input class="text fizz-input2" id="txtFizzBuzz2" placeholder="Buzz Number..." /><br />
-                        <button class="btn btn_project radius flip" id="btnFizzBuzz" data-toggle="modal" data-target="#fizz-modal">Do the math</button>
-
+                        <div class="col-6">
+                            <input class="text fizz-input1" id="txtFizzBuzz1" placeholder="Fizz Number..." /><br />
+                        </div>
+                        <div class="col">
+                            <input class="text fizz-input2" id="txtFizzBuzz2" placeholder="Buzz Number..." /><br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <button class="btn shadow-radius pl-5 pr-5" id="btnFizzBuzz" data-toggle="modal" data-target="#fizz-modal">Do the math</button>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
                         <output class="fizz-return" id="pFizzBuzzOut"></output>
                     </div>
                 </div>
@@ -733,6 +746,7 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">Sunset Hills Challenge</h4>
+                    <p class="ml-2">Sunset Hills is a coding challenge that takes an interesting formula to accomplish.  The object is to code an application that can take user inputs to represent the heights of different buildings.  With the sunset on the left, are any of those buildings blocked from seeing the sunset?  Click the button and I will let you know!</p>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
@@ -770,6 +784,7 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <h4 class="modal-title">Sum of All Fears Challenge</h4>
+                    <p class="ml-2">Sum of All Fears, unlike the famous movie is another algorithm that takes a bit of thought when it comes to making it happen pragmatically. You add 4 random numbers and one more for the value of K.  Click do the math and I will let you know of the first pair in your random numbers that sums up to the value of K, or if there are no pairs available to equal the same as your K value.</p>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
