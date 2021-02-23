@@ -145,7 +145,7 @@ h2 {
     transition: all 0.5s;
     padding: 15px;
     overflow-y: auto;
-    background: url(../Images/dark-wood.jpg) fixed no-repeat;
+    /*background: url(../Images/dark-wood.jpg) fixed no-repeat;*/
     background-size: contain;
     /*width: 22rem;*/
 }
